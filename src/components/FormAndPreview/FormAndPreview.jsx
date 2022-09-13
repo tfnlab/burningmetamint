@@ -196,22 +196,6 @@ class FormAndPreview extends Component {
     }
     return (
       <div>
-<div class="container  m-0 p-0">
-<div class="row m-0 p-0">
-      {items}
-</div>
-<div class="row m-0 p-0">
-      {itemsHomes}
-</div>
-</div>
-<div class="container m-0 p-0">
-<div class="row m-0 p-0">
-      {itemsBottomHomes}
-</div>
-<div class="row m-0 p-0">
-      {itemsBottom}
-</div>
-</div>
 
         <div class="container">
         <div class="card col-md-12 text-center" >
