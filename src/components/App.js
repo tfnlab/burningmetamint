@@ -258,36 +258,7 @@ claimPunk = async (punkIndex) => {
         window.location.reload();
       });
 };
-punksOfferedForSale = async (punkIndex) => {
 
-    this.setState({ punkOwner: "Unassigned"});
-
-    let lotSize = await this.state.cryptoBoysContract.methods
-    .getLand(punkIndex)
-    .call();
-    this.setState({ lotSize: lotSize});
-
-    let homeSize = await this.state.cryptoBoysContract.methods
-    .getHomeSize(punkIndex)
-    .call();
-    this.setState({ homeSize: homeSize});
-
-    const home = db[punkIndex]
-    this.setState({ homeUrl: home.homeurl});
-    this.setState({ mapUrl: home.mapurl});
-    this.setState({ homeAddress: home.address});
-
-    let punkOwner = await this.state.cryptoBoysContract.methods
-      .ownerOf(punkIndex)
-      .call();
-
-    if(punkOwner != 0x00){
-      this.setState({ punkOwner: punkOwner});
-    }
-    //this.state.punkOwner = "TEST VALUE";
-    //window.alert('Not Available: Home Owner ' + punkOwner);
-    //return punkOwner;
-};
 
 buyPunk = async (punkIndex, punkPrice) => {
   this.setState({ loading: true });

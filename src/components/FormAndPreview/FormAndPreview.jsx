@@ -79,7 +79,6 @@ class FormAndPreview extends Component {
       this.state.gasScoreHome = this.state.gasScoreHome * 2
 
       this.state.gasScore = (8001-this.state.punkid) * 18 * developedLand;
-      this.props.punksOfferedForSale(this.state.punkid);
 
       this.state.homeStyle = home.homestyle;
 
