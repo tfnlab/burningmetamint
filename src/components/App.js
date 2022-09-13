@@ -461,7 +461,6 @@ getPunkOwner = async (punkIndex) => {
                     colorIsUsed={this.state.colorIsUsed}
                     colorsUsed={this.state.colorsUsed}
                     setMintBtnTimer={this.setMintBtnTimer}
-                    punksOfferedForSale={this.punksOfferedForSale}
                     cryptoBoyPrice={this.state.cryptoBoyPrice}
                     getPunkOwner={this.getPunkOwner}
                     getMyPunks={this.getMyPunks}
