@@ -108,15 +108,9 @@ class FormAndPreview extends Component {
 
   callClaimPunkFromApp = (e) => {
     e.preventDefault();
-    if(this.state.punkid < 1001){
-      window.alert('Minting Not Available for Home NO ' + this.state.punkid);
-    }else if(this.props.punkOwner != 'Unassigned'){
-      window.alert('Minting Not Available for Home NO ' + this.state.punkid);
-    }else{
       this.props.claimPunk(
         this.state.punkid
       );
-    }
   };
 
 
