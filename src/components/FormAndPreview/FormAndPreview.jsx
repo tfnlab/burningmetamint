@@ -103,8 +103,6 @@ class FormAndPreview extends Component {
     let punkid = new URLSearchParams(this.props.location.search).get( "punkid" );
     if(punkid === '' || punkid === null || punkid === undefined)punkid = "1";
     this.setState({ punkid });
-    this.props.punksOfferedForSale(punkid);
-
 
   };
 
