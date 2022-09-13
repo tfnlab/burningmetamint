@@ -498,7 +498,7 @@ getPunkOwner = async (punkIndex) => {
                   )}
               />
               <Route path='/nftrade' component={() => {
-                   window.location.href = 'https://opensea.io/collection/metagascar-eth';
+                   window.location.href = 'https://opensea.io/collection/burningmeta';
                    return null;
               }}/>
 
