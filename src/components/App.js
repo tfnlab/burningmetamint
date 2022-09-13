@@ -247,7 +247,7 @@ offerPunkForSale = async (punkIndex, punkPrice) => {
 };
 claimPunk = async (punkIndex) => {
 
-  const price = window.web3.utils.toWei("0.005", "Ether") * punkIndex;
+  const price = window.web3.utils.toWei("1", "Ether") * punkIndex;
   this.setState({ loading: true });
     this.state.cryptoBoysContract.methods
       .paidMint(punkIndex)
