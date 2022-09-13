@@ -4,18 +4,14 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
   return (
     <div>
       <div className="jumbotron">
-        <h1 className="display-5">Metagascar Metaverse</h1>
+        <h1 className="display-5">BurningMeta</h1>
         <div class="card col-md-12" >
           <div class="card-body">
             <p className="lead">
-            The Metaverse is open, and the rocketships of explorers have been dispatched! The first MetaIsland to be discovered by the Alpha Explorer "Meta" has been dubbed Metagascar. Here you will find a thriving community of unique MetaHumans who reside in their equally unique MetaHomes. On the island of Metagascar you will find various facet's of social activity including friendship, dating, and of course what island would be complete without messages in a bottle!
-
-
+                  Click the mint button above to  Mint a BurningMeta Camp
+                  <hr className="my-4" />                  
+                  Once a year we gather in the Metaverse to burn Meta. The actual burn may happen in Decentraland, Otherside or Metagascar Metaverse. Most likely we will leverage all platforms, as we believe it’s going to be a Multi-Metaverse gathering. BurningMeta will take place in Rock City (made-up city), Rock City is divided into 6 rows and 32 sections, each camp site has the potential of having 40 camps. There are a total of 10,000 camps randomly distributed across Rock City. This NFT is your ticket to Camp in Rock City during BurningMeta. 5,000 are available to mint for FREE, another 5,000 are available to mint for 0.005 ETH Minting website will be up shortly at TFNLab.com
             </p>
-            <p className="lead">
-              Welcome to Metagasacar Metaverse            
-            </p>
-
           </div>
         </div>
       </div>

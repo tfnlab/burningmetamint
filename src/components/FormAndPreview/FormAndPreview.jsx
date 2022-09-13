@@ -216,7 +216,7 @@ class FormAndPreview extends Component {
         <div class="container">
         <div class="card col-md-12 text-center" >
                     <div class="card-body">
-    <h6 class="card-subtitle mb-2">Enter NFT NO</h6>
+    <h6 class="card-subtitle mb-2">Mint Amount (Max 3 per Wallet)</h6>
     <div>
       <input
         required
@@ -231,70 +231,12 @@ class FormAndPreview extends Component {
         }
       />
     </div>
-              <hr className="my-4" />
-<h5 class="card-title">{this.props.homeAddress}, Metagascar</h5>
-<h5 class="card-title">Home NO {this.state.punkid}</h5>
-<h5 class="card-title">{this.props.lotSize}</h5>
-<h5 class="card-title">{this.props.homeSize}</h5>
-<h5 class="card-title">{this.state.homeStyle}</h5>
-<p >Metaverse Link {this.props.homeUrl}</p>
-<p >Home Owner {this.props.punkOwner}</p>
-<p >Map Url {this.props.mapUrl}</p>
-<hr className="my-4" />
-<h5 class="card-title">Metagascar $GAS Rewards</h5>
-<hr className="my-4" />
-<p >Neighborhood {this.state.gasScore}</p>
-<p >Lot Size {this.state.gasScoreLot}</p>
-<p >Home Size {this.state.gasScoreHome}</p>
-<p >Total {this.state.gasTotal}</p>
-<p >
-  <button
-    id="mintBtn22"
-    style={{ fontSize: "0.9rem", letterSpacing: "0.14rem" }}
-    type="submit"
-    className="btn mt-4 btn-block btn-outline-primary"
-    value={this.props.homeUrl}
-    onClick={(e) =>
-      this.Load_New_URL(e)
-    }
-  >
-    Metaverse
-  </button>
-</p>
-<p >
-  <button
-    id="mintBtn22"
-    style={{ fontSize: "0.9rem", letterSpacing: "0.14rem" }}
-    type="submit"
-    className="btn mt-4 btn-block btn-outline-primary"
-    value={this.props.punkOwner}
-    onClick={(e) =>
-      this.Load_New_URLOpensea(e)
-    }
-  >
-    Opensea
-  </button>
-</p>
-<p >
-  <button
-    id="mintBtn22"
-    style={{ fontSize: "0.9rem", letterSpacing: "0.14rem" }}
-    type="submit"
-    className="btn mt-4 btn-block btn-outline-primary"
-    value={this.props.mapUrl}
-    onClick={(e) =>
-      this.Load_New_URLOSM(e)
-    }
-  >
-    Map
-  </button>
-</p>
 
 
         <form onSubmit={this.callClaimPunkFromApp} className="pt-4 mt-1">
           <div className="row">
           <div className="col-md-12">
-            Mint Price 0.1 ETH
+            Mint Price 0.005 ETH
             <div>
               <button
                 id="mintBtn22"

@@ -15,23 +15,13 @@ const Navbar = () => {
             className="navbar-nav ml-auto"
           >
             <li className="nav-item">
-              <Link to="/vr" className="nav-link">
-                Virtual Reality
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link to="/mint" className="nav-link">
-                View Property
+                Mint
               </Link>
             </li>
             <li className="nav-item">
               <Link to="nftrade" className="nav-link">
                 Marketplace
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/my-tokens" className="nav-link">
-                My Properties
               </Link>
             </li>
           </ul>
